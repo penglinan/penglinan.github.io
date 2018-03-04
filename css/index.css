@@ -1,0 +1,85 @@
+*{padding:0;margin:0;}
+body {font-family:"微软雅黑","黑体","宋体";}
+li{list-style-type: none;}
+#header{
+    background:url("../image/pattern.jpg") repeat;
+    color:#fff;
+    text-align:center;
+    height:100px;
+    widht:100%;
+    overflow:hidden;
+}
+.name{
+    font-size:32px;
+    margin-top:34px;
+    font-weight:bold;
+}
+.laber{
+    height:50px;
+    line-height:50px;
+    color:#000;background:url('../image/pattern.jpg') repeat;
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+}
+.all-mac div{
+    width:218px;margin:5px;float:left;
+    text-align:center;
+}
+.all-mac span{
+    color:#ccc;
+    text-align:center;
+    margin: 5px 0;
+}
+a{
+    text-decoration:none;
+    color:#888;
+    cursor:pointer;
+}
+#new-ul li{
+    cursor:pointer;
+    border-bottom:1px dashed #ddd;
+}
+#new-ul li div{
+    padding:3px 0 3px 3px;
+}
+#new-ul li:hover{
+    cursor:pointer;
+    color:#fff;
+    background:#005344;
+}
+#new-ul a {color:#ccc;}
+#footer{
+    padding:30px 0 10px 0;
+    font-family: Arial;
+    color:#888;
+    text-align:center;
+    background:url("../image/pattern.jpg") repeat;
+}
+#footer ul{overflow:hidden;margin:0 auto;display:inline-block;}
+#footer ul li{margin-left:10px;
+    float:left;
+}
+#footer p {width:300px;margin:0 auto;}
+#page ul{overflow:hidden;}
+.li-style{
+    float:left;
+    margin :0 10px;
+    border:1px solid #ddd;
+    cursor:pointer;
+    padding:1px 4px;
+}
+.active {border:1px solid transparent;}
+.lead-title{
+    background:url("../image/pattern.jpg") repeat;
+    height:40px;
+    color:#fff;
+    line-height: 40px;
+    padding-left: 5px;
+}
+.lead-content{
+    background:#1c2a2c;
+    color:#fff;
+    padding:5px;
+}
+.lead2{margin-bottom:10px;}
